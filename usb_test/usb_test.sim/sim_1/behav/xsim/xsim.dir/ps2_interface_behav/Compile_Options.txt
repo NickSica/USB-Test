@@ -1,0 +1,1 @@
+-wto "7de59149ccf5475b98431747bde1655a" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "ps2_interface_behav" "xil_defaultlib.ps2_interface" "xil_defaultlib.glbl" -log "elaborate.log" 
