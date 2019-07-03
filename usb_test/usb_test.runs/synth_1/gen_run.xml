@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1561487644">
   <File Type="PA-TCL" Name="ps2_interface.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="ps2_interface_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="ps2_interface_reports.tcl"/>
   <File Type="RDS-RDS" Name="ps2_interface.vds"/>
   <File Type="RDS-UTIL" Name="ps2_interface_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="ps2_interface_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="ps2_interface.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="ps2_interface_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="ps2_interface_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/usb_test.sv">
